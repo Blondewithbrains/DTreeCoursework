@@ -30,7 +30,7 @@ def split_dataset(data, threshold, feature):
 
 def get_mode(list_like):
     '''
-    calculate the mode of the list-like object
+    calculate the mode (most frequent entry) of the list-like object
     '''
     l_l = np.asarray(list_like)
     unique_elements = set(list_like)
