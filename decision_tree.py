@@ -11,6 +11,7 @@ class Node:
         '''
         'feature' and 'threshold' define the decision represented by the node (these are None for a leaf node)
         if the node is a leaf node, its 'value' attribute is not None. 
+        'rightmoves' describes the position of a node relative to the leftmost node; this will be useful for plotting.
         '''
         self.feature = feature
         self.threshold = threshold
